@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="true"
+    android:overScrollMode="always">
+    <ImageView
+        android:src="@drawable/L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_marginBottom="20px"
+        android:layout_marginTop="20px" />
+    <TextView
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progSysLog"
+        android:textSize="22px" />
+    <EditText xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progEmail"
+        android:layout_marginBottom="0.0dp"
+        tools:visibility="visible" />
+    <TextView
+        android:text="Hasło"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="22px" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progPass" />
+    <TextView
+        android:text="Jestem:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/konta" />
+    <Button
+        android:text="Zaloguj się"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progBtn" />
+    <TextView
+        android:text="Nie masz jeszcze konta? Zapraszamy do rejestracji!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progSysLog"
+        android:textSize="22px" />
+    <Button
+        android:text="Rejestracja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerButton" />
+</LinearLayout>

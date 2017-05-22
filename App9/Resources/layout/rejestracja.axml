@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView1"
+        android:layout_marginBottom="0.0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="Wpisz imię:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editImie" />
+            <TextView
+                android:text="Wpisz nazwisko:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNazwisko" />
+            <TextView
+                android:text="Wpisz hasło:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5" />
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editHaslo" />
+            <TextView
+                android:text="Powtórz hasło:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPowtorzHaslo" />
+            <TextView
+                android:text="Wpisz adres email:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editEmail" />
+            <TextView
+                android:text="Wybierz kurs:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Kursy" />
+            <Button
+                android:text="Potwierdź rejestrację"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/returnButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
